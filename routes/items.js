@@ -71,7 +71,7 @@ router.delete("/", (req, res) => {
           .json({ msg: "Item not found : " + name, success: false });
 
       res.json({
-        msg: "Catogary added : " + name,
+        msg: "Item delete : " + name,
         success: true,
       });
     });
